@@ -42,8 +42,8 @@ public class DitherEditor : MonoBehaviour {
     private string[] ditherToolbar = new string[] { "Linear", "Radial", "Image" };
     private string[] patternNames = new string[] { "Solid", "Bayer2", "Bayer4", "Bayer8", "Chain", "Circles", "Chess", "Commas", "Crosses", "Curls", "Dots", "Feathers", "Fur", "Grid", "Hair", "Halftone", "Lines", "Machine", "Maze", "Metal", "Scales", "Stripes", "Swirls", "Rocky", "Tiles" };
 
-    public RawImage largeImg;
-    public RawImage smallImg;
+    public UnityEngine.UI.RawImage largeImg;
+    public UnityEngine.UI.RawImage smallImg;
     private Texture2D outputTexture;
     private float[] customDitherSource;
 
